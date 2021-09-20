@@ -1,10 +1,11 @@
 import React from "react";
+import Todo from "./components/Todo";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hola</h1>
-    </div>
+    <>
+      <Todo />
+    </>
   );
 };
 
